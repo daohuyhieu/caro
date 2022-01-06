@@ -1,0 +1,19 @@
+.matrix {
+  background-color: aquamarine;
+  width: 450px;
+  height: 450px;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .matrix-row {
+    height: 20%;
+    width: 100%;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
